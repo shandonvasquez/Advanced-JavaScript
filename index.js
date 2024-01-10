@@ -9,6 +9,11 @@ console.log(startLine);
 console.log(turtle.padStart(7));
 console.log(rabbit.padStart(7));
 
+//.padEnd()
+console.log(startLine);
+console.log(turtle.padEnd(7));
+console.log(rabbit.padEnd(7));
+
 
 // console.log('Turtle'.padStart(10));
 
