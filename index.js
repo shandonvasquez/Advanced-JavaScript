@@ -39,7 +39,6 @@ console.log(rabbit.padEnd(7));
 // }
 // )
 
-// Object.entries(ob1).forEach(value => {
-//     console.log(value);
-// }
-// )
+ Object.entries(ob1).forEach(value => {
+    console.log(value); }
+ )
