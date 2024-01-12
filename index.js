@@ -34,10 +34,10 @@ console.log(rabbit.padEnd(7));
 //     console.log(key, ob1[key]);
 // })
 
-// Object.values(ob1).forEach(value => {   
-//     console.log(value);
-// }
-// )
+Object.values(ob1).forEach(value => {   
+    console.log(value);
+}
+)
 
  Object.entries(ob1).forEach(value => {
     console.log(value); }
