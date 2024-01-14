@@ -1,5 +1,22 @@
 //.padStart()
 //.padEnd()
+//  please provided more examples of padStart and padEnd
+//.padStart()
+//.padEnd()
+//  please provided more examples of padStart and padEnd
+const endline = '     ||<- End line';
+let pig = '🐷';
+let cat = '🐱';
+
+cosnole.log(endline);
+console.log(pig.padStart(7));
+console.log(cat.padStart(7));
+
+
+console.log(endline);
+console.log(pig.padEnd(7));
+console.log(cat.padEnd(7));
+
 
 const startLine = '     ||<- Start line';
 let turtle = '🐢';
@@ -43,3 +60,7 @@ Object.entries(ob1).forEach(value => {
     console.log(value);
 }
 )
+
+
+
+
