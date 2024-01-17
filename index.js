@@ -62,6 +62,5 @@ Object.entries(ob1).forEach(value => {
 )
 
 
-i have to wakje up 6am 
-I will create the page for ilan and 
-his storor
+i did started the page
+i do wake up at 6am 
