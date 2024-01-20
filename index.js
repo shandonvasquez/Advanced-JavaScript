@@ -8,7 +8,7 @@ const endline = '     ||<- End line';
 let pig = '🐷';
 let cat = '🐱';
 
-cosnole.log(endline);
+console.log(endline);
 console.log(pig.padStart(7));
 console.log(cat.padStart(7));
 
@@ -61,11 +61,11 @@ Object.entries(ob1).forEach(value => {
 }
 )
 
-i am study asynchronous javascript. 
-I didit 
-
-This 
-
-
 // #1 Turn this array into a new array: [1,2,3,[4],[5]]. Bonus if you can do it on one line
 const array = [[1],[2],[3],[[[4]]],[[[5]]]]
+
+console.log(array.flat(2));
+
+
+// #2 Turn this array into a new array: [ 'Hello young grasshopper!', 'you are', 'learning fast!' ]
+const greeting = [["Hello", "young", "grasshopper!"], ["you", "are"], ["learning", "fast!"]];
