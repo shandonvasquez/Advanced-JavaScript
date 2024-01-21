@@ -79,7 +79,8 @@ console.log(greeting.flatMap(value => value.join(' ')));
 
 //#4 Turn the trapped 3 number into: [3]
 const trapped = [[[[[[[[[[[[[[[[[[[[[[[[[[3]]]]]]]]]]]]]]]]]]]]]]]]]];
-//Solution
+//
+console.log(trapped.flat(Infinity));
 
 //#5 Clean up this email to have no whitespaces. Make the answer be in a single line (return a new string):
 const userEmail3 = '     cannotfillemailformcorrectly@gmail.com   '
