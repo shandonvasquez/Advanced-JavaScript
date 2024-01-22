@@ -62,9 +62,9 @@ Object.entries(ob1).forEach(value => {
 )
 
 // #1 Turn this array into a new array: [1,2,3,[4],[5]]. Bonus if you can do it on one line
-const array = [[1],[2],[3],[[[4]]],[[[5]]]]
+const array1 = [[1],[2],[3],[[[4]]],[[[5]]]]
 
-console.log(array.flat(2));
+console.log(array1.flat(2));
 
 
 // #2 Turn this array into a new array: [ 'Hello young grasshopper!', 'you are', 'learning fast!' ]
@@ -101,3 +101,81 @@ updatedUsersArray = usersArray.map((user) => [user[0], user[1] * 2])
 
 console.log(Object.fromEntries(updatedUsersArray));
 
+//////////////////////////////////////////////////////////
+
+const basket = ['apples', 'oranges', 'grapes'];
+const detailedBasket = {
+  apples: 5,
+  oranges: 10,
+  grapes: 1000
+}
+
+//1
+for (let i = 0; i < basket.length; i++) {
+  console.log(basket[i]);
+}
+
+//2
+basket.forEach(item => {
+  console.log(item);
+})
+
+for (item in detailedBasket) {
+  console.log(item);
+}
+
+for (item of basket) {
+  console.log(item);
+}
+
+// Question #1:
+// create a function called biggestNumberInArray() that takes
+// an array as a parameter and returns the biggest number.
+// biggestNumberInArray([-1,0,3,100, 99, 2, 99]) should return 100;
+// Use at least 3 different types of javascript loops to write this:
+const array = [-1,0,3,100, 99, 2, 99] // should return 100
+const array2 = ['a', 3, 4, 2] // should return 4
+const array3 = [] // should return 0
+
+
+
+function biggestNumberInArray(arr) {
+    if (arr.length === 0) {
+        return 0; // return 0 for an empty array
+    }
+
+    let maxNumber = arr[0]; // Initialize maxNumber with the first element of the array
+
+    for (let i = 1; i < arr.length; i++) {
+        if (arr[i] > maxNumber) {
+            maxNumber = arr[i]; // Update maxNumber if a larger element is found
+        }
+    }
+
+    return maxNumber; // Return the maximum number in the array
+}
+
+// Test cases
+console.log(biggestNumberInArray(array));  // should return 100
+
+
+function biggestNumberInArray2(arr) {
+
+}
+
+function biggestNumberInArray3(arr) {
+
+}
+
+
+// Question #2:
+// Write a function checkBasket() that lets you know if the item is in the basket or not
+amazonBasket = {
+  glasses: 1,
+  books: 2,
+  floss: 100
+}
+
+function checkBasket(basket, lookingFor) {
+
+}
