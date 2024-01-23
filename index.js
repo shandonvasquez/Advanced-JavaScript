@@ -214,4 +214,7 @@ if (andrei_pokemon?.raichu && will_pokemon?.pikachu?.friend?.charizard) {
   console.log('walk away...');
 }
 
+// ReplaceAll
+const pharse = 'This is a test pharse';
+const pharse2 = pharse.replaceAll('pharse', 'Image');
 
