@@ -188,7 +188,7 @@ let will_pokemon = {
         height: 0.4,
         weight: 6,
         power: 'lightning',
-        friend: { 
+        friend: {
             charizard: {
                 species: 'Dragon Pokemon',
                 height: 1.7,
@@ -209,12 +209,13 @@ let andrei_pokemon = {
 }
 
 if (andrei_pokemon?.raichu && will_pokemon?.pikachu?.friend?.charizard) {
-  console.log('fight!');
+    console.log('fight!');
 } else {
-  console.log('walk away...');
+    console.log('walk away...');
 }
 
 // ReplaceAll
 const pharse = 'This is a test pharse';
 const pharse2 = pharse.replaceAll('pharse', 'Image');
+
 
