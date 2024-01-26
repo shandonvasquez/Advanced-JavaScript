@@ -239,7 +239,7 @@ const ztmMonsters = [
     const lastMonsterIndex = ztmMonsters.findLastIndex(item => item.level > 15);
     console.log(lastMonsterIndex);
     
-    .
+    //this is the new method that we are going to use
     const ztmMonstersList = ['Mr. Mouse', 'Mac', 'Denodude', 'Pye'];
     
     //Using reverse()
