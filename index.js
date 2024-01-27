@@ -270,3 +270,6 @@ const ztmMonsters = [
     const withMonsters = ztmMonstersList.with(1, 'Gost');
     console.log(ztmMonstersList) 
     console.log(withMonsters)
+
+
+    .
