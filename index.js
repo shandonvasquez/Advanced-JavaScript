@@ -274,6 +274,9 @@ const ztmMonsters = [
 
 //Debugging with VS Code
 // it is the art of finding and fixing errors in your code and know how it works and acts
+// No this the original that i had to debug
+const flattened = [[0,1], [2,3], [4,5]].reduce(
+    (a,b) => a.concat(b), []);
 
 // this is the one with the debugger and with a way that is easy to undarstand what the code is doing
 const  fattened = [[0,1], [2,3], [4,5]].reduce((accumulator, array) => {
