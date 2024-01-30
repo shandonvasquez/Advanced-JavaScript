@@ -285,3 +285,20 @@ const  fattened = [[0,1], [2,3], [4,5]].reduce((accumulator, array) => {
 }, []);
 
 I have dowmloaded the debugger for chrome and i have installed the debugger for chrome extension
+
+// reduce.js
+define([], function(){
+    var reduce = function(arr, iteratee) {
+      var index = 0,
+        length = arr.length,
+        memo = arr[index];
+  
+      index += 1;
+      for(; index < length; index += 1){
+        memo = iteratee(memo, arr[index])
+      }
+      return memo;
+    }
+  
+    return reduce;
+  })
